@@ -4,27 +4,17 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
-h3.p {
-  font-weight: bold;
-  color: black;
-  text-align: left;
-}
 
-
-
- body {
+body {
   background: linear-gradient(to right, #e8e4e4, #ececec);
   color: #333;
 }
+
 h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
-
-
-
 nav {
-  background: #833AB4;
   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
   color: white;
   display: flex;
@@ -122,7 +112,6 @@ section {
   opacity: 1;
 }
 
-
 /* Flip Card */
 .flip-card {
   background-color: transparent;
@@ -212,7 +201,6 @@ section {
   }
 }
 
-
 .resume-btn {
   display: inline-block;
   margin-top: 20px;
@@ -228,7 +216,6 @@ section {
 .resume-btn:hover {
   background-color: #3700b3;
 }
-
 
 .flip-inner {
   position: relative;
@@ -317,8 +304,6 @@ section {
   transform: scale(1.2);
 }
 
-
-
 .card-front img {
   width: 100%;
   height: 100%;
@@ -344,6 +329,7 @@ section {
   text-decoration: underline;
   margin-top: 10px;
 }
+
 /* Projects List Styling */
 ol.project-list {
   max-width: 900px;
@@ -390,6 +376,8 @@ ol.project-list li a:hover {
   color: #3700b3;
   border-color: #3700b3;
 }
+
+/* Specific style for h3 with class p */
 h3.p {
   font-weight: bold;
   color: black;
