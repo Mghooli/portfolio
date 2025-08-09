@@ -390,3 +390,8 @@ ol.project-list li a:hover {
   color: #3700b3;
   border-color: #3700b3;
 }
+h3.p {
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
