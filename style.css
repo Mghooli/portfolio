@@ -335,3 +335,49 @@ section {
   text-decoration: underline;
   margin-top: 10px;
 }
+/* Projects List Styling */
+ol.project-list {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  list-style-position: inside;
+  color: #333;
+}
+
+ol.project-list li {
+  margin-bottom: 36px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ol.project-list li h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  background: linear-gradient(270deg, #ef0b0b, #5d069b, #4ADEDE, #9B59B6);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateText 8s ease infinite;
+}
+
+ol.project-list li p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+ol.project-list li a {
+  display: inline-block;
+  font-weight: 600;
+  color: #6200ea;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+ol.project-list li a:hover {
+  color: #3700b3;
+  border-color: #3700b3;
+}
