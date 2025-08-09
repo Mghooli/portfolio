@@ -18,7 +18,12 @@ h3.ptitle {
   text-align: left;
   font-weight: bold;
   color: black;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  animation: none !important;
 }
+
 
 
 nav {
